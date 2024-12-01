@@ -13,4 +13,5 @@ test('task', async ({ page, indexPage, shop, browserName}) => {
   await shop.product.addToCart_button_click()
   await shop.basket.cart_button_click()
   await shop.cart.productCartQuantity_check('Ploom X Advanced Black', 1)
+  //test
 });
